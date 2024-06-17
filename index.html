@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetJournal - Organização</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        section {
+            padding: 2em 0;
+            border-bottom: 1px solid #ccc;
+        }
+        .logo {
+            display: block;
+            margin: 0 auto;
+            width: 150px;
+        }
+        .intro, .soujunior {
+            text-align: center;
+        }
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .card {
+            background: #f4f4f4;
+            border: 1px solid #ccc;
+            margin: 1em;
+            padding: 1em;
+            width: 30%;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .card h3 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>PetJournal</h1>
+    </header>
+    
+    <div class="container">
+        <section class="intro">
+            <img src="logo.png" alt="PetJournal Logo" class="logo">
+            <h2>Apresentação do Projeto</h2>
+            <p>Loraepsun Loraepsun Loraepsun Loraepsun Loraepsun Loraepsun Loraepsun Loraepsun Loraepsun Loraepsun Loraepsun Loraepsun</p>
+        </section>
+        
+        <section class="soujunior">
+            <h2>Projeto SouJunior</h2>
+            <p>Loraepsun Loraepsun Loraepsun Loraepsun Loraepsun Loraepsun Loraepsun Loraepsun Loraepsun Loraepsun Loraepsun Loraepsun</p>
+        </section>
+        
+        <section class="projects">
+            <h2>Branches do Projeto PetJournal</h2>
+            
+            <div class="card">
+                <h3>API</h3>
+                <p>Tecnologias: Node.js, Express</p>
+            </div>
+            
+            <div class="card">
+                <h3>Android</h3>
+                <p>Tecnologias: Kotlin, Retrofit</p>
+            </div>
+            
+            <div class="card">
+                <h3>iOS</h3>
+                <p>Tecnologias: Swift, Alamofire</p>
+            </div>
+            
+            <div class="card">
+                <h3>Front End</h3>
+                <p>Tecnologias: React, Redux</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
